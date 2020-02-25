@@ -1,0 +1,55 @@
+.carousel-item{
+    padding:20px 40px;
+}
+.smartphone{
+ margin-bottom: 100px;
+}
+
+.buy-now-button{
+    background-color: black;
+    color:white;
+    border:none;
+    border-radius: 5px;
+    padding:5px 15px;
+}
+
+.card{
+    
+    border:none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.card-text{
+    color:grey;
+}
+
+.card-footer{
+    margin-top:auto;
+    border-top:none;
+    background-color: white;
+}
+.see-all{
+    padding: 30px 1px;
+
+}
+.see-all h5{
+    color:orangered;
+}
+.single{
+    padding:30px 30px;
+    width:160px;
+    box-shadow: 5px 5px 10px lightgray;
+
+}
+.double{
+    padding:30px 30px;
+    width:160px;
+    box-shadow: 5px 5px 10px lightgray;
+    margin-top:30px;
+    margin-left:60px;
+}
+hr{
+    border: 3px solid orange;
+    border-radius: 5px;
+    width:80px;
+}
