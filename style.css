@@ -1,3 +1,12 @@
+header{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.container{
+    margin-bottom: 70px;
+}
 .carousel-item{
     padding:20px 40px;
 }
@@ -36,8 +45,8 @@
     color:orangered;
 }
 .single{
-    padding:30px 30px;
-    width:160px;
+    padding:30px 10px;
+    width:150px;
     box-shadow: 5px 5px 10px lightgray;
 
 }
@@ -53,3 +62,47 @@ hr{
     border-radius: 5px;
     width:80px;
 }
+
+#cart{
+    width: 400px;
+}
+
+.carousel-indicators li{
+    background-image: linear-gradient(orange,orangered);
+    border-radius: 30px;
+    border:none;
+    height: 5px;
+    width: 20px;
+}
+#middle-point{
+    background-image: linear-gradient(orange,orangered);
+    border-radius: 30px;
+    width:8px;
+
+}
+
+.partners{
+    display:flex;
+    justify-content:center;
+}
+
+    
+
+.client-images img{
+    height:40px;
+    width:40px;
+    margin-right: 30px;
+    filter: grayscale(100%);
+    cursor: pointer;
+    
+}
+.client-images img:hover{
+    filter: grayscale(0%);
+}
+footer{
+    background-color:rgba(32, 29, 29, 0.952);
+    color:white;
+    margin-top:30px;
+    text-align: center;
+}
+
